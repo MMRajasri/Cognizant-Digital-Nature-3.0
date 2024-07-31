@@ -1,0 +1,34 @@
+Understand Sorting Algorithms
+Bubble Sort:
+
+A simple comparison-based sorting algorithm.
+Repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
+Time Complexity:
+Best Case: O(n)
+Average Case: O(n^2)
+Worst Case: O(n^2)
+Insertion Sort:
+
+Builds the final sorted array one item at a time.
+Picks the next element and inserts it into the correct position in the sorted part of the array.
+Time Complexity:
+Best Case: O(n)
+Average Case: O(n^2)
+Worst Case: O(n^2)
+Quick Sort:
+
+A divide-and-conquer algorithm.
+Picks a "pivot" element and partitions the array into two halves: elements less than the pivot and elements greater than the pivot.
+Recursively applies the same logic to the sub-arrays.
+Time Complexity:
+Best Case: O(n log n)
+Average Case: O(n log n)
+Worst Case: O(n^2) (rare, usually happens when the pivot selection is poor)
+Merge Sort:
+
+Another divide-and-conquer algorithm.
+Divides the array into two halves, recursively sorts them, and then merges the sorted halves.
+Time Complexity:
+Best Case: O(n log n)
+Average Case: O(n log n)
+Worst Case: O(n log n)
