@@ -1,0 +1,14 @@
+Linear Search:
+
+Linear search is a simple search algorithm that checks every element in the list sequentially until the desired element is found or the list ends.
+Time Complexity:
+Best Case: O(1) (if the element is at the beginning)
+Average Case: O(n)
+Worst Case: O(n)
+Binary Search:
+
+Binary search is a more efficient algorithm that only works on sorted lists. It repeatedly divides the list in half, comparing the middle element to the target value and discarding the half where the target cannot be.
+Time Complexity:
+Best Case: O(1)
+Average Case: O(log n)
+Worst Case: O(log n)
