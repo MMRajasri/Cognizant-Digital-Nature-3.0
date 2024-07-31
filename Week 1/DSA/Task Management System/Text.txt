@@ -1,0 +1,7 @@
+Analysis
+Time Complexity of Each Operation:
+
+Add Task: O(n) in the worst case since we need to traverse to the end of the list.
+Search Task: O(n) in the worst case as we may need to traverse the entire list.
+Traverse Tasks: O(n) as we need to visit each node.
+Delete Task: O(n) in the worst case since we may need to traverse the entire list to find the task to delete.
