@@ -1,0 +1,4 @@
+Analysis
+Time Complexity:
+
+The time complexity of the recursive algorithm is O(n), where n is the number of years. This is because the function makes one recursive call per year.
