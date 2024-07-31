@@ -1,0 +1,12 @@
+Analysis
+Time Complexity of Each Operation:
+
+Add Employee: O(1) on average, but O(n) in the worst case when resizing the array.
+Search Employee: O(n) in the worst case.
+Traverse Employees: O(n).
+Delete Employee: O(n) in the worst case due to shifting elements.
+Limitations of Arrays:
+
+Fixed Size: Initial size must be defined, and resizing can be costly.
+Inefficient Deletion and Insertion: Requires shifting elements, leading to O(n) time complexity.
+Better Alternatives: Linked lists, dynamic arrays (ArrayList in Java), and hash tables can be more efficient for certain operations.
