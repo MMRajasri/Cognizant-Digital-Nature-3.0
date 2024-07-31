@@ -1,0 +1,40 @@
+Understand Asymptotic Notation
+Big O Notation:
+
+Big O notation describes the upper bound of the time complexity of an algorithm. It provides an abstract measure of the execution time or space used by an algorithm as the input size grows.
+It helps in analyzing algorithms by providing a way to compare their efficiency based on how their run time or space requirements grow with increasing input sizes.
+Best, Average, and Worst-Case Scenarios for Search Operations:
+
+Best Case: The scenario where the operation has the smallest possible number of steps.
+Linear Search: O(1) (if the element is at the first position).
+Binary Search: O(1) (if the element is at the middle position).
+
+Average Case: The scenario representing the typical number of steps required for the operation.
+Linear Search: O(n/2) ≈ O(n).
+Binary Search: O(log n).
+
+Worst Case: The scenario where the operation has the largest possible number of steps.
+Linear Search: O(n) (if the element is at the last position or not found).
+Binary Search: O(log n) (if the element is at the last position in the recursive splitting).
+
+Time Complexity Comparison:
+
+Linear Search:
+Best Case: O(1) (if the element is found at the first position).
+Average Case: O(n/2) ≈ O(n).
+Worst Case: O(n) (if the element is at the last position or not found).
+Binary Search:
+Best Case: O(1) (if the element is at the middle position).
+Average Case: O(log n).
+Worst Case: O(log n) (if the element is at the last position in the recursive splitting).
+Suitability for E-commerce Platform:
+
+Linear Search:
+
+Suitable for small datasets or unsorted data.
+Simple to implement but inefficient for large datasets.
+Binary Search:
+
+Suitable for large datasets with sorted data.
+More efficient in terms of time complexity (O(log n)) compared to linear search.
+Requires data to be sorted, which might add overhead if the dataset changes frequently.
