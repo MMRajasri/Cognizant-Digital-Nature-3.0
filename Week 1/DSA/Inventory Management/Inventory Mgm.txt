@@ -1,0 +1,16 @@
+Importance of Data Structures and Algorithms:
+
+Efficient data storage and retrieval are crucial in handling large inventories to ensure quick access, updates, and deletion of products.
+Proper data structures and algorithms help in minimizing the time complexity for these operations, thus improving the overall performance of the inventory system.
+Suitable Data Structures:
+
+ArrayList: Useful if you need to maintain the order of insertion and need fast random access. However, it is not very efficient for frequent updates or deletions.
+HashMap: Ideal for fast lookups, insertions, and deletions with average O(1) time complexity for these operations. Suitable for large inventories where product IDs are unique and can be used as keys.
+
+Analysis
+Time Complexity:
+
+Add Product: O(1) on average because HashMap uses hashing to insert elements.
+Update Product: O(1) on average, similar to adding a product.
+Delete Product: O(1) on average.
+Get Product: O(1) on average.
